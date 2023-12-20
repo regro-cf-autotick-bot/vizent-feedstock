@@ -1,5 +1,5 @@
 {% set name = "vizent" %}
-{% set version = "1.1.1" %}
+{% set version = "1.1.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/vizent-{{ version }}.tar.gz
-  sha256: 420f01f352a7e361047f860e9de7a8b03cc2035e540f1214f1beda129859ab19
+  sha256: efca9278ac602335718764604ffdbb004bbc357a9286ec620fe7fba7cb6c58db
 
 build:
   noarch: python
